@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* ***************************
+ Reset Extenstion
+*************************** */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  display: block;
+}
+
+template,
+[hidden] {
+  display: none !important;
+}
+
+[disabled] {
+  cursor: not-allowed !important;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
+
+a,
+area,
+button,
+[role=button],
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: inherit;
+}
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  text-decoration: inherit;
+}
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+html {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+body {
+  overflow-x: hidden;
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+button {
+  font: inherit;
+}
+
+.p-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3333333333rem;
+  line-height: 1.25;
+}
+
+.l-main {
+  height: 700px;
+}
+
+.p-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  color: #0000ff;
+  background-color: #ccc;
+}
+
+.p-header__text {
+  font-size: 1.3333333333rem;
+  line-height: 2;
+  color: #333;
+}
+@media screen and (max-width: 768px) {
+  .p-header__text {
+    font-size: 0.6666666667rem;
+    line-height: 2;
+  }
+}
+
+.p-footer {
+  height: 300px;
+  background-color: #ccc;
+  font-size: 1rem;
+  line-height: 1.8666666667;
+}
+.p-footer::before {
+  position: absolute;
+  display: block;
+  content: "bbb";
+}
+
+/*---------------------------------
+ component
+ ---------------------------------*/
+/*---------------------------------
+ project
+ ---------------------------------*/
+/*---------------------------------
+ utility
+ ---------------------------------*/
+
+/*# sourceMappingURL=styles.css.map */

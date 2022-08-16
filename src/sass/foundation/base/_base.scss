@@ -1,0 +1,31 @@
+@use '../../config' as *;
+
+html {
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: $spBaseFontSize;
+    line-height: $spBaseLineHeight;
+  }
+}
+body {
+  overflow-x: hidden;
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+button {
+  font: inherit;
+}
+
+.p-div {
+  display: flex;
+  @include fs(20px, 25px);
+}

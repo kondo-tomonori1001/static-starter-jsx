@@ -1,0 +1,12 @@
+@use '../../config' as *;
+
+.p-footer {
+  height: 300px;
+  background-color: #ccc;
+  @include fs(15px, 28px);
+  &::before {
+    position: absolute;
+    display: block;
+    content: 'bbb';
+  }
+}

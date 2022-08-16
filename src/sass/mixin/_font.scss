@@ -1,0 +1,7 @@
+@use '../variables' as var;
+@use 'sass:math';
+
+@mixin fs($fs, $lh, $init: var.$baseFontSize) {
+  font-size: math.div($fs, $init) * 1rem;
+  line-height: math.div($lh, $fs);
+}

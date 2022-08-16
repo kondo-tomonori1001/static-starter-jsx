@@ -1,0 +1,15 @@
+@use '../../config' as *;
+
+.p-header {
+  display: flex;
+  height: 200px;
+  color: #0000ff;
+  background-color: #ccc;
+}
+.p-header__text {
+  @include fs(20px, 40px);
+  color: $main-color;
+  @include sp {
+    @include fs(10px, 20px);
+  }
+}

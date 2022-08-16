@@ -1,0 +1,11 @@
+@use '../../config' as *;
+
+.c-btn {
+  position: relative;
+  display: block;
+  color: #fff;
+  cursor: pointer;
+  background-color: orange;
+  border: none;
+  @include fs(15px, 30px);
+}
